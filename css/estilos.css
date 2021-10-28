@@ -1,0 +1,23 @@
+body#almacen{
+	background-image: url(../img/almacen.jpg);
+}
+
+body#produccion {
+	background-image: url(../img/produccion.jpg);
+}
+
+body#ventas {
+	background-image: url(../img/ventas.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body#cerrar {
+	background-image: url(../img/cerrar.jpg);
+	text-align: center;
+	/*background-repeat: no-repeat;*/
+
+}
+div h3 {
+	background-color: white;	
+}
