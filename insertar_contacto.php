@@ -82,13 +82,13 @@
 		   		//Comprobamos si nos llegan datos desde el formulario
 		   		if(isset($_POST) && !empty($_POST)){
 		   			$nombre = $_POST['nombre'];
-                    $apellido = $_POST['apellido'];
-                    $ciudad = $_POST['ciudad'];
+					$apellido = $_POST['apellido'];
+					$ciudad = $_POST['ciudad'];
 		   			$descripcion = $_POST['desc'];
 
 		   			$cliente->setNombre($nombre);
-                    $cliente->setApellido($apellido);
-                    $cliente->setCiudad($ciudad);
+				        $cliente->setApellido($apellido);
+				        $cliente->setCiudad($ciudad);
 		   			$cliente->setDescripcion($descripcion);
 		   			
 		   			$res = $cliente->insertar($nombre,$apellido,$ciudad,$descripcion);
